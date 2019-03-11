@@ -1,0 +1,28 @@
+.list-view .list-cell:even {
+-fx-background-color:  #2d3447;
+-fx-text-fill: white;
+}
+.list-view .list-cell:odd {
+-fx-background-color: #2d3447;
+-fx-text-fill: white;
+}
+.list-view .list-cell:selected{
+    -fx-background-color: #026b77;
+}
+.list-view .scroll-bar:vertical {
+  -fx-background-color: transparent;
+}
+
+
+
+.list-view .scroll-bar:vertical .track-background {
+  visibility: hidden;
+}
+
+.list-view .scroll-bar:vertical .track {
+  visibility: hidden;
+}
+
+.list-view .hide-thumb .scroll-bar:vertical .thumb {
+  -fx-background-color: transparent;
+}
